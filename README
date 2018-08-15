@@ -13,10 +13,12 @@ Add this to init.el:
 
 ## Usage
 
+write the board as 81 numbers, formatting doesn't matter, as long as it's 81.  
+you will prefer writing them as 3×3 blocks, for readability, but it's not necessary.
+put the cursor before the first number, then do one of the following:
+
 M-x sudoku-solve		reads board from the current buffer, prints solution in the same buffer
 M-x sudoku-solve-print		reads board from the current buffer, prints solution in minibuffer
 M-x sudoku-solve-to-buffer	reads board from the current buffer, prints solution in specified buffer
 M-x sudoku-solve-buffer		reads board from specified buffer, prints solution in the current buffer
 M-x sudoku-solve-print-buffer	reads board from specified buffer, prints solution in minibuffer
-
-
